@@ -5,14 +5,14 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: heading
-  label: Content
+  label: Home
 - type: jekyll-posts
-  label: Posts
+  label: Unternehmen
   create: all
   templates:
   - post
 - type: jekyll-pages
-  label: Pages
+  label: Produkte
   create: all
   templates:
   - landing-page
